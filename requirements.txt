@@ -1,0 +1,28 @@
+# Core orchestration
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-huggingface==0.0.3
+
+# Embeddings
+sentence-transformers==3.0.1
+huggingface-hub==0.24.6
+
+# Vector store
+faiss-cpu>=1.9.0
+
+# Document parsing
+pypdf==4.3.1
+python-docx==1.1.2
+
+# UI
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1
+numpy>=1.26.4
+tiktoken==0.7.0
+
+odfpy>=1.4.1
+openpyxl>=3.1.2
+python-pptx>=0.6.23
+pandas>=2.0.0

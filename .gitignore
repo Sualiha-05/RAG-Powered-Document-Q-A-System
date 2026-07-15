@@ -1,0 +1,21 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Models (downloaded at runtime, not committed)
+models/*.gguf
+
+# Generated data
+data/faiss_index/
+data/raw/*
+!data/raw/.gitkeep
+
+# HuggingFace cache
+.cache/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
