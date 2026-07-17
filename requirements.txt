@@ -20,7 +20,7 @@ streamlit>=1.39.0
 # Utilities
 python-dotenv==1.0.1
 numpy>=1.26.4
-Pillow>=7.1.0,<11.0.0
+Pillow>=11.0.0
 
 
 odfpy>=1.4.1
